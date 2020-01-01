@@ -76,7 +76,7 @@
   color: #eeeeee; 
   font-family: 'Permanent Marker', cursive; 
   position: absolute;
-  top: 50px; 
+  top: 80px; 
   left: 80px; 
   font-size: 20px; 
   animation: fadeIn 2s ease-in both; 
@@ -184,8 +184,8 @@
   padding: 20px; 
   border: solid #a6b4ba; 
   position: absolute;
-  top: 0px;
-  left: 0px; 
+  top: 300px;
+  left: 180px; 
   background-color: black; 
   animation: fadeInExperience 2s ease-in both; 
   animation-delay: 3s; 
@@ -195,8 +195,8 @@
   padding: 20px; 
   border: solid #a6b4ba; 
   position: absolute;
-  top: 0px;
-  left: 0px; 
+  top: 600px;
+  left: 680px; 
   background-color: black; 
   animation: fadeInExperience 2s ease-in both; 
   animation-delay: 5s; 
