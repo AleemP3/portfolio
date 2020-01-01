@@ -76,8 +76,8 @@
   color: #eeeeee; 
   font-family: 'Permanent Marker', cursive; 
   position: absolute;
-  top: 500px; 
-  left: 150px; 
+  top: 200px; 
+  left: 100px; 
   font-size: 20px; 
   animation: fadeIn 2s ease-in both; 
 
@@ -85,8 +85,8 @@
 .AboutHeader {
   color: #eeeeee; 
   position: absolute;
-  top: 400px; 
-  left: 150px; 
+  top: 100px; 
+  left: 100px; 
   font-family: 'Permanent Marker', cursive; 
   font-size: 35px; 
   animation: fadeIn 1s ease-in both;   
