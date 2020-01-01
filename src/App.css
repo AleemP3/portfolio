@@ -184,7 +184,7 @@
   padding: 20px; 
   border: solid #a6b4ba; 
   position: absolute;
-  top: 650px;
+  top: 590px;
   left: 260px; 
   background-color: black; 
   animation: fadeInExperience 2s ease-in both; 
@@ -196,7 +196,7 @@
   border: solid #a6b4ba; 
   position: absolute;
   top: 950px;
-  left: 240px; 
+  left: 180px; 
   background-color: black; 
   animation: fadeInExperience 2s ease-in both; 
   animation-delay: 5s; 
