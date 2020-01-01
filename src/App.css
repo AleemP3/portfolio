@@ -76,8 +76,8 @@
   color: #eeeeee; 
   font-family: 'Permanent Marker', cursive; 
   position: absolute;
-  top: 30px; 
-  left: 100px; 
+  top: 50px; 
+  left: 80px; 
   font-size: 20px; 
   animation: fadeIn 2s ease-in both; 
 
@@ -85,8 +85,8 @@
 .AboutHeader {
   color: #eeeeee; 
   position: absolute;
-  top: 15px; 
-  left: 100px; 
+  top: 10px; 
+  left: 80px; 
   font-family: 'Permanent Marker', cursive; 
   font-size: 35px; 
   animation: fadeIn 1s ease-in both;   
@@ -183,9 +183,9 @@
 .myspaceOv {
   padding: 20px; 
   border: solid #a6b4ba; 
-  /* position: absolute;
-  top: 2300px;
-  left: 550px;  */
+  position: absolute;
+  top: 0px;
+  left: 0px; 
   background-color: black; 
   animation: fadeInExperience 2s ease-in both; 
   animation-delay: 3s; 
@@ -194,9 +194,9 @@
 .trelloOv {
   padding: 20px; 
   border: solid #a6b4ba; 
-  /* position: absolute;
-  top: 2650px;
-  left: 380px;  */
+  position: absolute;
+  top: 0px;
+  left: 0px; 
   background-color: black; 
   animation: fadeInExperience 2s ease-in both; 
   animation-delay: 5s; 
