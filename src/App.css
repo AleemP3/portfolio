@@ -75,18 +75,18 @@
 .aboutMe {
   color: #eeeeee; 
   font-family: 'Permanent Marker', cursive; 
-  /* position: absolute;
-  top: 1050px; 
-  left: 340px;  */
+  position: absolute;
+  top: 500px; 
+  left: 340px; 
   font-size: 20px; 
   animation: fadeIn 2s ease-in both; 
 
 }
 .AboutHeader {
   color: #eeeeee; 
-  /* position: absolute;
-  top: 950px; 
-  left: 340px;  */
+  position: absolute;
+  top: 450px; 
+  left: 340px; 
   font-family: 'Permanent Marker', cursive; 
   font-size: 35px; 
   animation: fadeIn 1s ease-in both;   
