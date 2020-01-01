@@ -1,26 +1,56 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect }from 'react';
+import { Route, Switch} from "react-router-dom"; 
+import { Container, Grid } from "semantic-ui-react";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Experience from "./components/Experience"; 
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import Test from "./components/Test";
+import styled, { keyframes } from 'styled-components';
+import background from "./images/13853-gradient.jpg";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const App = () => {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect( () => {
+    setInterval(toggleLoading, 5000)
+  }, [])
+
+  const toggleLoading = () => {
+    setLoading(!loading)
+  }
+
+  return(
+    <>
+    <BackgroundColor>
+        { loading ? <Test /> :  
+          <>
+          <Navbar />
+            <Grid>
+              <Container>
+                <Home />
+                <About /> 
+                <Experience />
+                <Contact />
+              </Container>
+            </Grid>
+          <Footer /> 
+          </>
+        }
+      </BackgroundColor>
+    </>
+  )
 }
+
+export const BackgroundColor = styled.div`
+  background-image: url("${background}"); 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+`
 
 export default App;
