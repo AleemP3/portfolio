@@ -136,7 +136,7 @@
   color: #eeeeee; 
   font-family: 'Permanent Marker', cursive; 
   font-size: 30px; 
-  animation: fadeIn 1s ease-in both;   
+  animation: fadeInExperience 1s ease-in both;   
   animation-delay: 2s; 
 }
 
@@ -145,7 +145,7 @@
   color: #eeeeee; 
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px; 
-  animation: fadeIn 1s ease-in both; 
+  animation: fadeInExperience 1s ease-in both; 
   animation-delay: 4s; 
 }
 
@@ -209,7 +209,7 @@
   font-family: 'Permanent Marker', cursive; 
   text-align: center;
   font-size: 30px; 
-  animation: fadeInExperience 2s ease-in both; 
+  animation: fadeInExperience 4s ease-in both; 
   animation-delay: 8s; 
 }
 

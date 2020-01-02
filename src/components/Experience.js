@@ -17,7 +17,7 @@ const Experience = () => {
 
   const handleScroll = (e) => {
     setScrollPos(document.body.getBoundingClientRect().top)
-    if (document.body.getBoundingClientRect().top < -1200) {
+    if (document.body.getBoundingClientRect().top < -1450) {
       setShowAbout(!showAbout)
     }
   }
