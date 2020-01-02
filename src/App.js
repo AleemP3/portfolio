@@ -26,8 +26,9 @@ const App = () => {
 
   return(
     <>
+    <Grid.Row>
     <BackgroundColor>
-        { loading ? <Grid><Test /></Grid> :  
+        { loading ? <Grid.Row><Test /></Grid.Row> :  
           <>
           <Grid.Row textAlign="right">
             <Navbar />
@@ -54,6 +55,7 @@ const App = () => {
           </>
         }
       </BackgroundColor>
+      </Grid.Row>
     </>
   )
 }
