@@ -34,10 +34,18 @@ const App = () => {
           </Grid.Row>
             <Grid>
               <Container>
-                <Home />
-                <About /> 
-                <Experience />
-                <Contact />
+                <Grid.Row>
+                  <Home />
+                </Grid.Row>
+                <Grid.Row>
+                  <About /> 
+                </Grid.Row>
+                <Grid.Row>
+                  <Experience />
+                </Grid.Row>
+                <Grid.Row>
+                  <Contact />
+                </Grid.Row>
               </Container>
             </Grid>
           <Grid.Row textAlign="center">
