@@ -1,5 +1,4 @@
 import React, { useState, useEffect }from 'react';
-import { Route, Switch} from "react-router-dom"; 
 import { Container, Grid } from "semantic-ui-react";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -27,37 +26,35 @@ const App = () => {
   return(
     <>
     <Grid.Row>
-    <BackgroundColor>
-      <Grid.Row>
-        { loading ? <Grid.Row><Test /></Grid.Row> :  
-          <>
-          <Grid.Row textAlign="right">
-            <Navbar />
-          </Grid.Row>
-            <Grid>
-              <Container>
-                <Grid.Column mobile={16} tablet={8} computer={4}>
-                  <Home />
-                </Grid.Column>
-                <Grid.Column mobile={16} tablet={8} computer={4}>
-                  <About /> 
-                </Grid.Column>
-                <Grid.Column mobile={16} tablet={8} computer={4}>
-                  <Experience />
-                </Grid.Column>
-                <Grid.Column mobile={16} tablet={8} computer={4}>
-                  <Contact />
-                </Grid.Column>
-              </Container>
-            </Grid>
-          <Grid.Row textAlign="center">
-            <Footer /> 
-          </Grid.Row>
-          </>
-        }
-        </Grid.Row>
+      <BackgroundColor>
+          { loading ? <Grid><Test /></Grid> :  
+            <>
+            <Grid.Row textAlign="right">
+              <Navbar />
+            </Grid.Row>
+              <Grid>
+                <Container>
+                  <Grid.Column mobile={16} tablet={8} computer={4}>
+                    <Home />
+                  </Grid.Column>
+                  <Grid.Column mobile={16} tablet={8} computer={4}>
+                    <About /> 
+                  </Grid.Column>
+                  <Grid.Column mobile={16} tablet={8} computer={4}>
+                    <Experience />
+                  </Grid.Column>
+                  <Grid.Column mobile={16} tablet={8} computer={4}>
+                    <Contact />
+                  </Grid.Column>
+                </Container>
+              </Grid>
+            <Grid.Row textAlign="center">
+              <Footer /> 
+            </Grid.Row>
+            </>
+          }
       </BackgroundColor>
-      </Grid.Row>
+    </Grid.Row>
     </>
   )
 }

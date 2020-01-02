@@ -78,7 +78,8 @@
   left: 65px; 
   font-family: 'Permanent Marker', cursive; 
   font-size: 35px; 
-  animation: fadeIn 1s ease-in both;   
+  animation: fadeIn 1s ease-in both;  
+  animation-delay: 1s; 
 }
 .aboutMe {
   color: #eeeeee; 
@@ -88,6 +89,7 @@
   left: 65px; 
   font-size: 20px; 
   animation: fadeIn 2s ease-in both; 
+  animation-delay: 2s;
 
 }
 .iconFooter {
@@ -113,6 +115,7 @@
 }
 .ListItems {
   animation: fadeInItems 3s ease-in both;  
+  animation-delay: 3s;
 }
 
 .activeExperience {
@@ -133,8 +136,8 @@
   color: #eeeeee; 
   font-family: 'Permanent Marker', cursive; 
   font-size: 30px; 
-  animation-delay: 2s; 
   animation: fadeIn 1s ease-in both;   
+  animation-delay: 2s; 
 }
 
 .MyExperience {
@@ -142,8 +145,8 @@
   color: #eeeeee; 
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px; 
-  animation-delay: 4s; 
   animation: fadeIn 1s ease-in both; 
+  animation-delay: 4s; 
 }
 
 @keyframes fadeInExperience {
@@ -188,7 +191,7 @@
   left: 260px; 
   background-color: black; 
   animation: fadeInExperience 2s ease-in both; 
-  animation-delay: 3s; 
+  animation-delay: 5s; 
 
 }
 .trelloOv {
