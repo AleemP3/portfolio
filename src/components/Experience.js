@@ -35,7 +35,7 @@ const Experience = () => {
               continue pushing myself to learn as much as I can afterwards.
               <br /> 
               <br />
-              other technologies I would like to learn: Angular, Node, and Vue. 
+              Other technologies I would like to learn: Angular, Node, and Vue. 
               <br />
               <br />
               --- Here are some note worthy projects i've completed thus far ---
@@ -45,13 +45,13 @@ const Experience = () => {
           <div className="myspace">
             <Image className="MyspaceImage" src="https://img.icons8.com/color/360/000000/myspace.png" as="a" href="https://github.com/AleemP3/myspace"/>
             <div className="myspaceOv">
-              <p>this was a project given from Dev Point Labs <br />
+              <p>This was a project given from Dev Point Labs <br />
                 to recreate an old popular social media app called "Myspace". <br />
                 I was proud with what I was able to accomplish for this project. <br /> 
                 However, I still know there is room to grow and improve.
                 <br />
                 <br />
-                --- technologies used ---
+                --- Technologies Used ---
                 <ul>
                   <li>Front-End: React</li>
                   <li>Back-End: Ruby on Rails</li>
@@ -62,14 +62,14 @@ const Experience = () => {
           <div className="trello">
             <Image className="trelloImage" src="https://img.icons8.com/color/420/000000/trello.png" as="a" href="https://github.com/AleemP3/Trollo" /> 
             <div className="trelloOv">
-              <p>this was also a project given from Dev Point Labs 
+              <p>This was also a project given from Dev Point Labs 
                 to recreate an app called "Trello". <br />
                 Trello is a collaboration tool that organizes your projects into boards. <br />
                 I was happy with the final product of the app and its functionality. <br /> 
                 However, I still know there is room to grow and improve. 
                 <br />
                 <br />
-                --- technologies used ---
+                --- Technologies Used ---
                 <ul>
                   <li>Front-End/Back-End: Ruby on Rails</li>
                 </ul>

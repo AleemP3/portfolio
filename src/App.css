@@ -16,21 +16,10 @@
   font-family: 'Ubuntu', sans-serif;
   font-size: 30px; 
   padding-top: 100px; 
-
-  @media only screen and (min-width : 768px) {
-    width: 75%;
-    background-color: green;
-  }
-  
-  /* Medium Devices, Desktops */
-  @media only screen and (min-width : 992px) {
-    width: 50%;
-    background-color: pink;
-    }
   }
 .name {
   text-align: center;
-  font-family: 'Permanent Marker', cursive; 
+  font-family: 'Ubuntu', sans-serif;
   font-size: 55px; 
 }
 .description {
@@ -85,7 +74,7 @@
 }
 .aboutMe {
   color: #eeeeee; 
-  font-family: 'Permanent Marker', cursive; 
+  font-family: 'Ubuntu', sans-serif;
   position: absolute;
   top: 110px; 
   left: 65px; 
@@ -153,7 +142,7 @@
 .MyExperience {
   text-align: center;
   color: #eeeeee; 
-  font-family: 'Permanent Marker', cursive; 
+  font-family: 'Ubuntu', sans-serif;
   font-size: 20px; 
 }
 
@@ -180,14 +169,14 @@
 .myspace {
   display: flex;
   color: #eeeeee; 
-  font-family: 'Permanent Marker', cursive; 
+  font-family: 'Ubuntu', sans-serif;
   font-size: 15px; 
 }
 
 .trello {
   display: flex;
   color: #eeeeee; 
-  font-family: 'Permanent Marker', cursive; 
+  font-family: 'Ubuntu', sans-serif; 
   font-size: 15px; 
 }
 

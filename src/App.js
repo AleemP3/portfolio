@@ -27,9 +27,11 @@ const App = () => {
   return(
     <>
     <BackgroundColor>
-        { loading ? <Test /> :  
+        { loading ? <Grid><Test /></Grid> :  
           <>
-          <Navbar />
+          <Grid.Row textAlign="right">
+            <Navbar />
+          </Grid.Row>
             <Grid>
               <Container>
                 <Home />
@@ -38,7 +40,9 @@ const App = () => {
                 <Contact />
               </Container>
             </Grid>
-          <Footer /> 
+          <Grid.Row textAlign="center">
+            <Footer /> 
+          </Grid.Row>
           </>
         }
       </BackgroundColor>

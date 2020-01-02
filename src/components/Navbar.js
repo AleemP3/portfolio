@@ -1,5 +1,5 @@
-import React, { createRef } from "react";
-import { Menu, Sticky, Button, Icon, Ref} from "semantic-ui-react"; 
+import React from "react";
+import { Menu, Sticky, Button, Icon, } from "semantic-ui-react"; 
 // import { Link, } from "react-router-dom"; 
 import styled, { keyframes } from 'styled-components';
 import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
@@ -8,8 +8,6 @@ import "../App.css";
 
 
 class Navbar extends React.Component {
-
-  contextRef = createRef(); 
 
   state = { show: true, scrollPos: 0 }
  
