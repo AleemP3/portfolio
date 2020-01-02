@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Divider, Image, Button } from "semantic-ui-react"; 
+import { Divider, Image } from "semantic-ui-react"; 
 import { Element } from 'react-scroll';
 
 const Experience = () => { 
