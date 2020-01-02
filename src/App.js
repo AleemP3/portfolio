@@ -34,18 +34,18 @@ const App = () => {
           </Grid.Row>
             <Grid>
               <Container>
-                <Grid.Row>
+                <Grid.Column mobile={16} tablet={8} computer={4}>
                   <Home />
-                </Grid.Row>
-                <Grid.Row>
+                </Grid.Column>
+                <Grid.Column mobile={16} tablet={8} computer={4}>
                   <About /> 
-                </Grid.Row>
-                <Grid.Row>
+                </Grid.Column>
+                <Grid.Column mobile={16} tablet={8} computer={4}>
                   <Experience />
-                </Grid.Row>
-                <Grid.Row>
+                </Grid.Column>
+                <Grid.Column mobile={16} tablet={8} computer={4}>
                   <Contact />
-                </Grid.Row>
+                </Grid.Column>
               </Container>
             </Grid>
           <Grid.Row textAlign="center">

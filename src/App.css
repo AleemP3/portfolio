@@ -70,7 +70,6 @@
   display: flex; 
   border: solid #a6b4ba; 
   padding-bottom: 100px; 
-  animation: fadeIn .5s ease-in both; 
 }
 .aboutMe {
   color: #eeeeee; 
@@ -127,7 +126,6 @@
 .ExperienceBorder {
   border: solid #a6b4ba; 
   padding-bottom: 100px; 
-  animation: fadeIn .5s ease-in both; 
 }
 .ExperienceHeader {
   padding-top: 5px; 
@@ -135,7 +133,7 @@
   color: #eeeeee; 
   font-family: 'Permanent Marker', cursive; 
   font-size: 30px; 
-  animation-delay: 1s; 
+  animation-delay: 2s; 
   animation: fadeIn 1s ease-in both;   
 }
 
