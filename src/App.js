@@ -28,6 +28,7 @@ const App = () => {
     <>
     <Grid.Row>
     <BackgroundColor>
+      <Grid.Row>
         { loading ? <Grid.Row><Test /></Grid.Row> :  
           <>
           <Grid.Row textAlign="right">
@@ -54,6 +55,7 @@ const App = () => {
           </Grid.Row>
           </>
         }
+        </Grid.Row>
       </BackgroundColor>
       </Grid.Row>
     </>

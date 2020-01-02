@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette%7CGirassol%7CPermanent+Marker%7CUbuntu&display=swap%27');
 
-.homeElement {
-  padding-top: 75px;
-}
 .divider {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+.homeElement {
+  padding-top: 75px;
 }
 
 .nav {
@@ -71,6 +71,15 @@
   border: solid #a6b4ba; 
   padding-bottom: 100px; 
 }
+.AboutHeader {
+  color: #eeeeee; 
+  position: absolute;
+  top: 20px; 
+  left: 65px; 
+  font-family: 'Permanent Marker', cursive; 
+  font-size: 35px; 
+  animation: fadeIn 1s ease-in both;   
+}
 .aboutMe {
   color: #eeeeee; 
   font-family: 'Ubuntu', sans-serif;
@@ -80,15 +89,6 @@
   font-size: 20px; 
   animation: fadeIn 2s ease-in both; 
 
-}
-.AboutHeader {
-  color: #eeeeee; 
-  position: absolute;
-  top: 20px; 
-  left: 65px; 
-  font-family: 'Permanent Marker', cursive; 
-  font-size: 35px; 
-  animation: fadeIn 1s ease-in both;   
 }
 .iconFooter {
   color: #66FCF1; 
@@ -142,6 +142,8 @@
   color: #eeeeee; 
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px; 
+  animation-delay: 4s; 
+  animation: fadeIn 1s ease-in both; 
 }
 
 @keyframes fadeInExperience {
